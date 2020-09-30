@@ -24,3 +24,29 @@ a {
   border: 2px solid white;
   border-radius: 5px;
 }
+Air {
+  color: #00ff55
+}
+thunder {
+  color: #ff7800
+}
+
+RainBow {
+  animation: color-change 10s infinite;
+  text-decoration: underline;
+  font-size:40px;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color: orange; }
+  20% { color: yellow; }
+  30% { color: green; }
+  40% { color: blue; }
+  50% { color: purple; }
+  60% { color: blue; }
+  70% { color: green; }
+  80% { color: yellow; }
+  90% { color: orange; }
+  100% {color: red; }
+}

@@ -1,0 +1,17 @@
+So uh
+on my ipad rn bc its school 
+and I cant goto the site
+So not that good
+i cant even goto the site rn smh
+so dumb its 
+"Adult content"
+how is MY site that I made is "adult content"
+also cant use discord!!!!!
+
+
+
+
+    <p>
+      Join my <strong><a href="https://discord.gg/M6A2eK7" target="_blank">Discord!</a></strong>
+    </p>
+    <iframe src="https://discordapp.com/widget?id=723776438712664094&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
