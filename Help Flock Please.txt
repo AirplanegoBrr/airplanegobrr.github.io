@@ -1,0 +1,4 @@
+Hey how to you move text/embed around on the site?  
+Like I wanna move the discord to the bottem left
+
+Just put it in /testing/index.html
