@@ -1,11 +1,17 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  background-color: #131313;
-  text-align: center;
-  color: white;
-  margin: 3em;
+  background-color: #141414;
+  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==');
+    overflow-x:hidden;
+    height:100%;
+    text-align: center;
+    font-family: 'Lato', Helvetica, arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.45;
+    color: #eee;
+    color: rgba(255,255,255,.85);
 }
 
 h1 {
@@ -81,4 +87,49 @@ rainbow {
   80% { color: yellow; }
   90% { color: orange; }
   100% {color: red; }
+}
+
+size {
+  font-size:100px;
+}
+
+#button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}
+
+.input {
+    background-color: #191919;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 14px 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    height: 20px;
+    max-width: 450px;
+}
+
+#contactinfo {
+    margin-bottom: 30px;
+    height: 65px;
+    height: 30px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+  
+:-moz-placeholder {
+    text-align: center;
 }
