@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="https://cdn.glitch.com/0736d0ce-4302-4fd4-9bca-cfbbe19b7988%2FEFFECTS.jpg?v=1601324967463">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179443005-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-179443005-1");
+    </script>
+
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/0736d0ce-4302-4fd4-9bca-cfbbe19b7988%2FEFFECTS.jpg?v=1601324967463"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Airplane</title>
-    
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
-   
     <h1>My Other Sites</h1>
-   
-    <p>
+
+    <!--     <p>
       My Email
     </p>
     
     <a href="mailto:airplanegobrrfeedback@gmail.com">airplanegobrrfeedback@gmail.com</a>
     <p>
       (click to open gmail)
-    </p>
+    </p> -->
+
+    <textarea
+      type="text"
+      id="subject"
+      placeholder="Email Title"
+      class="input"
+      size="30"
+    ></textarea
+    ><br />
+    <!--The First text field for the Title-->
+    <textarea
+      type="text"
+      id="inbody"
+      placeholder="Email Body"
+      class="input"
+      size="30"
+    ></textarea
+    ><br />
+    <!--The second text field for the body of the text-->
+    <textarea
+      type="text"
+      id="contactinfo"
+      placeholder="How to contact you (Email or Discord)"
+      class="input"
+      size="30"
+    ></textarea
+    ><br />
+    <!--Contact Info-->
+    <button id="button" onclick="sendEmail(); disableb();">
+      Send Email
+    </button>
+    <!--The button that triggers the function to send the email-->
     <p>
-       <button onclick="window.location.href='/site'" class="back">Back</button>
+      <button onclick="window.location.href='/site'" class="back">Back</button>
     </p>
-    
+
+    <script async src="https://arc.io/widget.js#pSut37h8"></script>
   </body>
 </html>
 <!-- Makde by !!Airplane!!-WSYCT#1613 and Flock#5108-->
